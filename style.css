@@ -1,35 +1,46 @@
-body{background-image: url(vlad2.jpg);
+body {
+    background-color: rgb(37, 31, 22);
     height: fit-content;
     line-height: normal;
-    width: 92% ;
+    width: 92%;
 }
-nav{
-    display:flex;
+
+nav {
+    display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.logo{
+
+.logo {
     color: rgb(44, 42, 165);
     font-size: 32px;
     letter-spacing: 1px;
     cursor: pointer;
-}span{color:rgb(13, 99, 70);}
-nav ul li{
+}
+
+span {
+    color: rgb(13, 99, 70);
+}
+
+nav ul li {
     list-style-type: none;
     display: inline-block;
     padding: 10px 25px;
 }
-nav ul li a{
+
+nav ul li a {
     color: aquamarine;
     text-decoration: none;
     font-weight: bold;
     text-transform: capitalize;
 }
-nav ul li a:hover{
-    color: rgb(44,42,165);
-    transition: .4s;   
+
+nav ul li a:hover {
+    color: rgb(44, 42, 165);
+    transition: .4s;
 }
-.plm{
+
+.plm {
     background-color: aquamarine;
     text-decoration: none;
     color: blue;
@@ -39,17 +50,20 @@ nav ul li a:hover{
     border-radius: 30px;
     transition: .4s;
 }
-.continut{
+
+.continut {
     position: absolute;
     top: 50%;
     left: 3%;
     transform: translateY(-50%);
 }
-h3{
-    color:rgb(44,42,165);
+
+h3 {
+    color: rgb(44, 42, 165);
     font-size: 50px;
 }
-h10{
-    color:aquamarine;
+
+h10 {
+    color: aquamarine;
     font-size: 20px;
 }
